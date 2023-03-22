@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 100px 20px 20px 20px;
+    background-image: url(./img/e7165502b2a1cf61fa81b20e02bad088.gif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+main {
+    width: 50%;
+    display: grid;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 36%;
+    left: 6%;
+    z-index: 1;
+}
+.youtube-logo {
+    position: fixed;
+    top: 32%;
+    right: -2%;
+    width: 12%;
+    padding: 10px;
+    bottom: -10%;
+    z-index: -1;
+}
+
+.instagram {
+    position: fixed;
+    top: 42%;
+    right: 0;
+    width: 10%;
+    padding: 10px;
+}
+
+.twitter {
+    position: fixed;
+    top: 52%;
+    right: 0;
+    width: 10%;
+    padding: 10px;
+}
+
+.facebook {
+    position: fixed;
+    top: 62%;
+    right: -3%;
+    width: 14%;
+    padding: -5%;
+}
+
+img {
+    position: absolute;
+    top: 40px;
+    left: 21%;
+    transform: translateX(-50%);
+    z-index: 0;
+    width: 40%;
+}
+
+nav {
+    font-size: 125%;
+    width: 100%;
+    position: fixed; 
+    top: 3%; 
+    align-self: flex-start;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px;
+    transition: background-color 0.2s ease;
+}
+
+.description__text {
+    color: white;
+    font-size: 170%;
+    max-width: 80%;
+    margin: 10px;
+    margin-bottom: 30px;
+    font-family:'Caveat', cursive;;
+    transform: translate(-14%);
+
+}
+
+footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 40%;
+    margin-left: 45%;
+}
+p {
+    color: aliceblue;
+    background: linear-gradient (to right,rgba(255, 255, 255, 0.5), white url('background-image.jpg'));
+    background-blend-mode: overlay;
+  }
+  
+  .video-container {
+      margin-top: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10% -10%;
+  }
+  
+  .video-container > div {
+    margin-top: 110%;
+    width: 30%;
+    margin-left: 3%;
+  }
+  
+  .video-container > div > iframe {
+    margin-left: 80%;
+    width: 90%;
+    height: 100%;
+    margin-top: -210px;
+    transform: translate(-50%);
+
+  }
+
+ .logo{
+    width: 210px;
+    height: 29%;
+    position: absolute;
+    transform: translate(-130%);
+ }
